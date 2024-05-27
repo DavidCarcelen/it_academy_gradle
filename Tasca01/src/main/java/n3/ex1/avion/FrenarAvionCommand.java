@@ -1,6 +1,8 @@
-package n3.ex1;
+package n3.ex1.avion;
 
-public class FrenarAvionCommand implements Command{
+import n3.ex1.Command;
+
+public class FrenarAvionCommand implements Command {
     private Avion avion;
 
     public FrenarAvionCommand(Avion avion) {

@@ -1,6 +1,9 @@
-package n3.ex1;
+package n3.ex1.bicicleta;
 
-public class FrenarBicicletaCommand implements Command{
+import n3.ex1.Command;
+import n3.ex1.bicicleta.Bicicleta;
+
+public class FrenarBicicletaCommand implements Command {
     private Bicicleta bicicleta;
 
     public FrenarBicicletaCommand(Bicicleta bicicleta) {
@@ -18,4 +21,4 @@ public class FrenarBicicletaCommand implements Command{
         System.out.println("Desacer frenar");
     }
 }
-}
+

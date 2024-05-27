@@ -1,4 +1,6 @@
-package n3.ex1;
+package n3.ex1.coche;
+
+import n3.ex1.Command;
 
 public class AcelerarCocheCommand implements Command {
     private Coche coche;

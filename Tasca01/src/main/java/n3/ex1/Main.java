@@ -1,5 +1,16 @@
 package n3.ex1;
 
+import n3.ex1.avion.Avion;
+import n3.ex1.barco.Barco;
+import n3.ex1.bicicleta.AcelerarBicicletaCommand;
+import n3.ex1.bicicleta.ArrancarBicicletaCommand;
+import n3.ex1.bicicleta.Bicicleta;
+import n3.ex1.bicicleta.FrenarBicicletaCommand;
+import n3.ex1.coche.AcelerarCocheCommand;
+import n3.ex1.coche.ArrancarCocheCommand;
+import n3.ex1.coche.Coche;
+import n3.ex1.coche.FrenarCocheCommand;
+
 public class Main {
     public static void main(String[] args) {
 

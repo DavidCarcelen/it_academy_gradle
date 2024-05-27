@@ -1,4 +1,7 @@
-package n3.ex1;
+package n3.ex1.bicicleta;
+
+import n3.ex1.Command;
+import n3.ex1.bicicleta.Bicicleta;
 
 public class AcelerarBicicletaCommand implements Command {
     private Bicicleta bicicleta;

@@ -1,4 +1,4 @@
-package n3.ex1;
+package n3.ex1.barco;
 
 public class Barco {
     public void arrancar (){

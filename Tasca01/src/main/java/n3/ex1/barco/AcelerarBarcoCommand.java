@@ -1,6 +1,8 @@
-package n3.ex1;
+package n3.ex1.barco;
 
-public class AcelerarBarcoCommand implements Command{
+import n3.ex1.Command;
+
+public class AcelerarBarcoCommand implements Command {
 
     private Barco barco;
 

@@ -1,6 +1,8 @@
-package n3.ex1;
+package n3.ex1.coche;
 
-public class ArrancarCocheCommand implements Command{
+import n3.ex1.Command;
+
+public class ArrancarCocheCommand implements Command {
     private Coche coche;
 
     public ArrancarCocheCommand(Coche coche) {

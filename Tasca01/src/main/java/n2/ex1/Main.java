@@ -7,7 +7,7 @@ public class Main {
         Direccion direccionUSA = factoryUSA.crearDireccion("742 Evergreen Terrace", "Springfield", "Utah", "62701");
         Telefono telefonoUSA = factoryUSA.crearTelefono("217", "5551234");
 
-        System.out.println("Dirección en USA creada: " + direccionUSA.getDireccion());
+        System.out.println("Dirección en USA: " + direccionUSA.getDireccion());
         System.out.println("Teléfono (USA): " + telefonoUSA.getTelefono());
 
 

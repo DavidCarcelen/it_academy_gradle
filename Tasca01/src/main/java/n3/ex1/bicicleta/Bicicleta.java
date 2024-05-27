@@ -1,4 +1,4 @@
-package n3.ex1;
+package n3.ex1.bicicleta;
 
 public class Bicicleta {
     public void arrancar (){

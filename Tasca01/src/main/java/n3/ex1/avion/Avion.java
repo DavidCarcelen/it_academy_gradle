@@ -1,4 +1,4 @@
-package n3.ex1;
+package n3.ex1.avion;
 
 public class Avion {
     public void arrancar (){

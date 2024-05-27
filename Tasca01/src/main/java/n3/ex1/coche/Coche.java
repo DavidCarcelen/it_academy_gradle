@@ -1,4 +1,4 @@
-package n3.ex1;
+package n3.ex1.coche;
 
 public class Coche {
     public void arrancar (){

@@ -1,6 +1,8 @@
-package n3.ex1;
+package n3.ex1.barco;
 
-public class ArrancarBarcoCommand implements Command{
+import n3.ex1.Command;
+
+public class ArrancarBarcoCommand implements Command {
     private Barco barco;
 
     public ArrancarBarcoCommand(Barco barco) {
@@ -18,4 +20,4 @@ public class ArrancarBarcoCommand implements Command{
         System.out.println("Desacer arrancar");
     }
 }
-}
+
