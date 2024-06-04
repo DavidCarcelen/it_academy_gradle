@@ -1,6 +1,6 @@
 package Tasca1.n2ex1.telefono;
 
-public class TelefonoUSA extends Telefono{
+public class TelefonoUSA implements Telefono{
     private String prefix;
     private String numero;
 

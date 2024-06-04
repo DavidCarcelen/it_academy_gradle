@@ -1,6 +1,6 @@
 package Tasca1.n2ex1.direccion;
 
-public class DireccionUSA extends Direccion{
+public class DireccionUSA implements Direccion{
     private String calle;
     private String ciudad;
     private String estado;
